@@ -61,3 +61,48 @@ print(f"Strip: '{text.strip()}'")
 print(f"Replace: '{text.replace('World', 'Python')}'")
 print(f"Length: {len(text)}")
 
+# f-strings (BEST WAY!)
+name = "Alice"
+age = 25
+print(f"f-string: My name is {name} and I'm {age} years old")
+
+
+# ===========================================
+# PART 2: DATA STRUCTURES
+# ===========================================
+
+print("\n" + "="*50)
+print("PART 2: DATA STRUCTURES")
+print("="*50)
+
+# ---------- LISTS ----------
+print("\n--- LISTS (Mutable, Ordered) ---")
+fruits = ["apple", "banana", "cherry"]
+numbers = [1, 2, 3, 4, 5]
+mixed = ["hello", 42, True, 3.14]
+
+print(f"Original list: {fruits}")
+print(f"First element: {fruits[0]}")
+print(f"Last element: {fruits[-1]}")
+print(f"Slicing [1:3]: {fruits[1:3]}")
+
+# List operations
+fruits.append("orange")
+print(f"After append: {fruits}")
+
+fruits.insert(1, "grape")
+print(f"After insert: {fruits}")
+
+fruits.remove("banana")
+print(f"After remove: {fruits}")
+
+popped = fruits.pop()
+print(f"After pop (removed '{popped}'): {fruits}")
+
+print(f"Length: {len(fruits)}")
+
+# Looping through lists
+print("Looping through fruits:")
+for fruit in fruits:
+    print(f"  - {fruit}")
+
