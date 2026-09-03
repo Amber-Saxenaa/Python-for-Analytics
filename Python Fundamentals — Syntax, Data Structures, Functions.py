@@ -231,6 +231,7 @@ print(f"Calculate 10 / 5: {calculate(10, 5, 'divide')}")
 # ---------- *args AND **kwargs ----------
 print("\n--- *args AND **kwargs ---")
 
+
 # *args - variable number of positional arguments
 def sum_all(*args):
     """Sum any number of arguments"""
